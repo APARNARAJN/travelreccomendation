@@ -1,0 +1,133 @@
+/* General Navbar Container */
+body{
+    background-image: url('pexels-timrael-2474687.jpg');
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1f2f2f, #2c3e3e);
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Logo Section */
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar .logo img {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+/* Navigation Links */
+.navbar nav {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+  color: #00d1d1;
+}
+
+/* Search Box Container */
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-size: 14px;
+  width: 200px;
+  color: #333;
+}
+
+.search-container button {
+  border: none;
+  padding: 8px 14px;
+  margin-left: 5px;
+  border-radius: 20px;
+  background-color: #008080;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #006666;
+}
+
+.search-container .icon {
+  color: #008080;
+  margin-right: 8px;
+  font-size: 18px;
+}
+.main{
+    font-size: 5rem;
+    color: white;
+    
+    margin-left: 100px;
+}
+.main2{
+    color: white;
+     margin-left: 95px;
+    
+}
+.btn{
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    
+    margin-left: 95px;
+}
+.social-icons {
+    margin-top: 100px;
+  position: fixed;
+  top: 150px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1000;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #00d1d1;
+  transform: scale(1.1);
+}
